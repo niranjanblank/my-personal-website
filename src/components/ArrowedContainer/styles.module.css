@@ -1,3 +1,11 @@
+
+.outer_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .arrowed_container {
     border: 1px #e0e3e7 solid;
     background-color: white;
@@ -7,31 +15,24 @@
     height:fit-content;
 }
 
-.outer_container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
 .left_arrow{
     border: 1px #e0e3e7 solid;
     background-color: white;
     transform: rotate(45deg) translateX(-15px);
-    height:20px;
+    height: 20px;
     width: 20px;
-    margin-top:15px;
     border-left: 0px;
     border-bottom: 0px;
+    margin-top: 15px;
 }
 
 .right_arrow{
     border: 1px #e0e3e7 solid;
     background-color: white;
     transform: rotate(-45deg) translateX(15px);
-    height: 20px;
-    width: 40px;
-    margin-top:15px;
+    width:40px;
+    height:20px;
     border-right: 0px;
     border-bottom: 0px;
+    margin-top:15px;
 }

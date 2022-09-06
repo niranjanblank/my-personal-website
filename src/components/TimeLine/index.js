@@ -1,5 +1,4 @@
-import ArrowedContainer from '../ArrowedContainer'
-import Circle from './Circle'
+
 import Items from './Items'
 import Line from './Line/Line'
 import styles from './styles.module.css'

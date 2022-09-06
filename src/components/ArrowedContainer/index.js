@@ -1,7 +1,7 @@
 import styles from './styles.module.css'
 import { motion } from 'framer-motion'
 const ArrowedContainer = (props) => {
-    console.log(props)
+
     return (
         <motion.div className={styles.outer_container}
         initial={{ opacity:0, scale:0.8}}
