@@ -6,16 +6,16 @@ const Items = () => {
     return (
         <div className={styles.item_container}>
             <div className={styles.left_item}>
-                <ArrowedContainer title="Hello World" body="This is body of 1"/>
+                <ArrowedContainer title="Hello World" body="This is body of 1" type="left"/>
             </div>
             <div className={styles.center_item}>
-                <Line height="50px"/>
+                <Line height="175px"/>
                 <Circle/>
-                <Line height="55px"/>
+                <Line height="175px"/>
 
             </div>
             <div className={styles.right_item}>
-                <ArrowedContainer title="Hello World Lorem Ipsum" body="This is body of Lorem Ipsum"/>
+                <ArrowedContainer title="Hello World Lorem Ipsum" body="This is body of Lorem Ipsum" type="right"/>
             </div>
 
         </div>

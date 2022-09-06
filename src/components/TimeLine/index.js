@@ -20,7 +20,6 @@ const TimeLine = () => {
             <Line height="60px"/>
                 <Items/>
             <Line height="80px"/>
-            Hello world
         </div>
     )
 }
