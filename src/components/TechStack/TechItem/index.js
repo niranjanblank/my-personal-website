@@ -25,7 +25,7 @@ const TechItem = (props) => {
                 onHoverHandler('leave')
             }
         }
-        height={props.height} width={props.width} alt={props.image.name}/>
+        height={props.image.height} width={props.image.width} alt={props.image.name}/>
         </div>
     )
 }
